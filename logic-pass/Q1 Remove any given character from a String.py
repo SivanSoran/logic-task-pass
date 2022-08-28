@@ -4,8 +4,9 @@
 # In[ ]:
 
 
-org_str = 'two-factor authentication'
-new_str = org_str.replace('a','')
+org_str = str(input("Input your text:"))
+x= str(input("Char. to remove: "))
+new_str = org_str.replace(x,'')
 print(new_str)
 
 
